@@ -1,0 +1,20 @@
+{
+  "defaultLanguage": "en",
+  "fallbackLanguage": "en",
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "nativeName": "English",
+      "direction": "ltr",
+      "enabled": true
+    },
+    {
+      "code": "bn",
+      "name": "Bengali",
+      "nativeName": "বাংলা",
+      "direction": "ltr",
+      "enabled": true
+    }
+  ]
+}
