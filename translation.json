@@ -1,0 +1,44 @@
+{
+  "en": {
+    "appName": "Akonda Global World",
+    "tagline": "Global Jobs and Business Platform",
+    "common": {
+      "welcome": "Welcome",
+      "language": "Language",
+      "english": "English",
+      "bengali": "Bengali",
+      "save": "Save",
+      "cancel": "Cancel",
+      "search": "Search",
+      "loading": "Loading..."
+    },
+    "nav": {
+      "home": "Home",
+      "jobs": "Jobs",
+      "business": "Business",
+      "about": "About",
+      "contact": "Contact"
+    }
+  },
+  "bn": {
+    "appName": "আকন্দ গ্লোবাল ওয়ার্ল্ড",
+    "tagline": "গ্লোবাল জবস এবং বিজনেস প্ল্যাটফর্ম",
+    "common": {
+      "welcome": "স্বাগতম",
+      "language": "ভাষা",
+      "english": "ইংরেজি",
+      "bengali": "বাংলা",
+      "save": "সংরক্ষণ করুন",
+      "cancel": "বাতিল করুন",
+      "search": "খুঁজুন",
+      "loading": "লোড হচ্ছে..."
+    },
+    "nav": {
+      "home": "হোম",
+      "jobs": "চাকরি",
+      "business": "ব্যবসা",
+      "about": "সম্পর্কে",
+      "contact": "যোগাযোগ"
+    }
+  }
+}
