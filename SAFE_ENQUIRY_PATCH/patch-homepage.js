@@ -8,11 +8,14 @@ const replacements = [
  ['If approved, you receive a private, time-limited upload link by email. If we cannot help, we send a polite decline instead.', 'Our team contacts you directly after review. Online document upload is currently disabled; do not email passports or identity documents.'],
  ['Wait for our approval before uploading documents.', 'Do not submit sensitive files through this website or ordinary email.'],
  ['Approval before documents', 'Manual review first'],
+ ['Upload only after approval', 'Contact us after review'],
  ['No passport upload in the first step', 'No online passport upload is enabled'],
  ['Send enquiry securely →', 'Send enquiry →'],
+ ["submitBtn.textContent='Send enquiry securely →';", "submitBtn.textContent='Send enquiry →';"],
+ ['Please check your email for our response.', 'Our team will contact you using the details provided.'],
  ['Your enquiry is forwarded to our email for manual review. This site does not intentionally save enquiries to its own database.', 'Your enquiry is emailed for manual review. The website does not offer document upload. Avoid including sensitive details.']
 ];
 let changed = 0;
-for (const [before, after] of replacements) { if (html.includes(before)) { html = html.replace(before, after); changed++; } }
+for (const [before, after] of replacements) { if (html.includes(before)) { html = html.replaceAll(before, after); changed++; } }
 if (changed < 5) { console.error('Patch aborted: expected source phrases not found; only', changed, 'matched.'); process.exit(1); }
 fs.writeFileSync(path, html); console.log('Homepage safety copy patched. Replacements:', changed);
