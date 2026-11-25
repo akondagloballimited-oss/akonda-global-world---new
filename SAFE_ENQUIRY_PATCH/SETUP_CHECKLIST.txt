@@ -1,0 +1,11 @@
+SAFE ENQUIRY-ONLY DEPLOYMENT
+[ ] Verify business/legal/license/address/contact details from official documents.
+[ ] Import the full safe package to a separate Vercel project/preview.
+[ ] Set OWNER_EMAIL, RESEND_API_KEY and verified RESEND_FROM privately.
+[ ] Redeploy Preview and test enquiry using dummy data.
+[ ] Verify upload page disabled and POST upload returns 503.
+[ ] Verify review endpoint returns 410.
+[ ] Add privacy policy/terms and verify business details.
+
+DO NOT collect passports/NIDs or bank files. Upload is disabled.
+Secure storage, access control, scanning/quarantine, retention/deletion, audit and E2E tests are required before re-enabling.
