@@ -1,0 +1,7 @@
+{
+  "name": "akondo-global-world-website",
+  "version": "2.1.0",
+  "private": true,
+  "description": "Enquiry-only website; sensitive document upload disabled",
+  "engines": { "node": ">=20" }
+}
